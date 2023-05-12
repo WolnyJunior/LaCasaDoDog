@@ -1,76 +1,199 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./imagens/assets/logo_icon.png" type="image/png">
     <title>La Casa do Dog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
-<body>
-    <img id="logo1" src="./imagens/assets/logo.png" alt="la casa do dog">
-    <div class="borda">
-        <h1>La Casa do Dog</h1>
-        <h2>Um novo conceito em dog</h2>                
-    </div>
 
-    <br>
+</head>
+
+<body>
+    <div class="container">
+            <img id="logo1" src="./imagens/assets/logo.png" alt="Imagem-Logo">
+        <div>
+            <h1 class="laCasa">La Casa do Dog</h1>
+            <h2 class="slogan">Um novo conceito em dog</h2>
+        </div>
+    </div>
 
     <div class="linha_menu">
-        <ul class="menu">                    
-            <a class="button" href="./dogs.html"><li>Os Dogs</li></a>
-            <a class="button" href="#historia"><li>A História</li></a>
-            <a class="button" href="#rodape"><li>Contatos</li></a>
-        </ul>            
+        <ul class="menu">
+            <a class="button" href="#dogs">
+                <li>Os Dogs</li>
+            </a>
+            <a class="button" href="#historia">
+                <li>A História</li>
+            </a>
+            <a class="button" href="#rodape">
+                <li>Contatos</li>
+            </a>
+        </ul>
     </div>
 
-    <br><hr>
+    <hr>
 
     <div id="slides">
-        <h3 style="text-align:center">Página em Construção</h3>
+        <h3>Página em Construção</h3>
         <h1>slide de fotos</h1>
         <h2>Em breve</h2>
     </div>
 
-    <br><hr><br>
-    
+    <hr>
+
     <div id="historia">
+        <h2>Nossa História</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel ex sodales, tristique elit sit amet,
+            fermentum lacus. Ut luctus mi a augue hendrerit accumsan. Sed quis ligula sit amet ipsum consequat gravida
+            eu eu risus. Duis efficitur auctor tortor eu interdum. Duis sit amet porttitor turpis. Curabitur efficitur
+            ipsum metus, vel finibus eros vestibulum non. Sed vitae magna tempus, rutrum erat et, tempor neque. Nam eget
+            ligula quis mauris maximus placerat sit amet sed dui. Nunc et ex congue, venenatis justo scelerisque,
+            bibendum felis. Sed accumsan, justo ut luctus iaculis, felis mi volutpat leo, suscipit dignissim eros ligula
+            vitae nibh. Pellentesque varius sed ex id mattis. Mauris ante felis, tempor ac lacinia iaculis, consectetur
+            ac nisl.</p>
 
-    <br>
+        <p>Morbi pellentesque pellentesque turpis, sit amet egestas ex. Ut porta lectus at nibh pretium commodo. Aenean
+            at ultricies magna, at pretium nisi. Donec mattis hendrerit risus eget vestibulum. Suspendisse sagittis
+            sodales nulla, non sollicitudin erat consectetur eget. Vestibulum vitae urna risus. Vestibulum varius sapien
+            maximus sollicitudin laoreet. Duis ut lacus commodo, lacinia lectus eu, porttitor enim.</p>
+    </div>
+    <div id="cachorro_quente">
+        <div class="nomes">
+            <img src="./imagens/mascara sem fundo.png" id="dali">
+            <ul class="links">
+                <li><a href="#cusco">Cusco</a></li>
+                <li><a href="#pinscher">Pinscher</a></li>
+                <li><a href="#rottweiler">Rottweiler</a></li>
+                <li><a href="#pitbull_monster">Pitbull Monster</a></li>
+                <li><a href="#pitbull_k">Pitbul Kachurrasco</a></li>
+                <li><a href="#cadela_baia">Cadela Baia</a></li>
+                <li><a href="#linguicinha">Linguicinha</a></li>
+                <li><a href="#jaguatirica">Jaguatirica</a></li>
+                <li><a href="#vira_lata">Vira Lata</a></li>
+            </ul>
+        </div>
 
-        <h2 >Nossa História</h2>
-        <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum
-        </p>
+        <div class="dogs" id="dogs">
+            <figure>
+                <img id="cusco" src="./imagens/assets/cusco.png" width="25%">
+                <figcaption>
+                    <h2>Dog Cusco</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">O Dog Cusco é aquele teu cachorro tradicional com 2 salsichas, pão d'água, pure de
+                batata, molho especial, barbecue, tomate defumado com orégano, ovo cozido, batata palha, salsa verde e
+                queijo ralado.</p>
+
+            <figure>
+                <img id="pinscher" src="./imagens/assets/pinscher.png" width="25%">
+                <figcaption>
+                    <h2>Pinscher (Vegano)</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">E pra quem não curte comer carne, temos essa deliciosa opção com pão d'água, molho
+                especial, tomate defumado com orégano,
+                cenouricha,milho verde, ervilha, cebola ao alho.</p>
+
+            <figure>
+                <img id="rottweiler" src="./imagens/assets/rottweiler.png" width="20%">
+                <figcaption>
+                    <h2>Rottweiler</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">O Rottweiler é aquele dogão esperto com dois espetinhos de carne assado na lenha,
+                pão d'água, pure de batata, molho especial, barbecue, tomate defumado com orégano, ovo cozido, batata
+                palha, salsa verde e queijo mussarela escamado.</p>
+
+            <figure>
+                <img id="pitbull_monster" src="./imagens/assets/pitbull_monster.png" width="18%">
+                <figcaption>
+                    <h2>Pitbull Monster</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">Só de pensar já da água na boca, o dog Pitbull é feito com aquela costela top
+                desfiada na panela, pão d'água, pure de batata,
+                molho especial, barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+
+            <figure>
+                <img id="pitbull_k" src="./imagens/assets/pitbull_monster.png" width="18%">
+                <figcaption>
+                    <h2>Pitbull Kachurrasco</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">Nesse Dog vem um espetinho de carne assado na lenha, pão d'água, pure de batata,
+                molho especial,
+                barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+
+            <figure>
+                <img id="cadela_baia" src="./imagens/assets/cadela_baia.png" width="18%">
+                <figcaption>
+                    <h2>Cadela Baia</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">"Putututu, temo domando, temo aprendendo, temo ensinando" O dog Cadela Baia tem
+                aquele espetinho de carne moida, pão d'água, pure de batata, molho especial,
+                barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+
+            <figure>
+                <img id="linguicinha" src="./imagens/assets/linguicinha.png" width="25%">
+                <figcaption>
+                    <h2>Linguicinha</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">Feito no estilo diferenciado do La Casa do Dog, o Linguicinha tem duas calabresas,
+                pão d'água, pure de batata, molho especial,
+                barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+
+            <figure>
+                <img id="jaguatirica" src="./imagens/assets/jaguatirica.png" width="18%">
+                <figcaption>
+                    <h2>Jaguatirica</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">No Jaguatirica tem aquele espetinho de coração que também é feito no fogo de lenha,
+                pão d'água, pure de batata, molho especial,
+                barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+
+            <figure>
+                <img id="vira_lata" src="./imagens/assets/vira_lata.png" width="20%">
+                <figcaption>
+                    <h2>Vira Lata</h2>
+                </figcaption>
+            </figure>
+            <p class="ingredientes">E no nosso Vira Lata tem aquele espetinho de churrasco, duas calabresas, bacon em
+                tiras, pão d'água,
+                pure de batata, molho especial, barbecue, tomate defumado com orégano,
+                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+        </div>
     </div>
 
-    <br><br><br><br>   
-        
     <footer>
         <img src="./imagens/assets/logo.png" id="logo">
         <ul id="rodape">
-        <a href="https://wa.me/message/FVRAEZSRMDXSH1" target="_blank"><li class="ZAP" id="ZAP"></li></a>
-        <a href="https://instagram.com/lacasa.dodog?igshid=YmMyMTA2M2Y=" target="_blank"><li id="IG"></li></a>
+            <a href="https://wa.me/message/FVRAEZSRMDXSH1" target="_blank">
+                <li class="ZAP" id="ZAP"></li>
+            </a>
+            <a href="https://instagram.com/lacasa.dodog?igshid=YmMyMTA2M2Y=" target="_blank">
+                <li id="IG"></li>
+            </a>
         </ul>
-    
-        <a href="https://www.google.com/maps/place/R.+Amauri+Soares+Ribeiro,+559+-+C%C3%B4nego+Luiz+Walter+Hanquet,+Camaqu%C3%A3+-+RS,+96770-000/@-30.8435933,-51.7874787,19z/data=!3m1!4b1!4m5!3m4!1s0x951a769500d2775b:0x3d3b3091f88f008!8m2!3d-30.8435933!4d-51.7864219" target="_blank">
-        <p>Amauri Soares Ribeiro nº:1580, Cônego Walter - Camaquã/RS</p></a>
-        
-    </footer>
-    <a id="ZAPZAP" href="https://wa.me/message/FVRAEZSRMDXSH1" target="_blank"><img src=".//imagens/Zap.png" width="70px"></a>
-    <br>
-    <a class="home"  href="index.html">Home</a>
 
-    
+        <a href="https://www.google.com/maps/place/R.+Amauri+Soares+Ribeiro,+559+-+C%C3%B4nego+Luiz+Walter+Hanquet,+Camaqu%C3%A3+-+RS,+96770-000/@-30.8435933,-51.7874787,19z/data=!3m1!4b1!4m5!3m4!1s0x951a769500d2775b:0x3d3b3091f88f008!8m2!3d-30.8435933!4d-51.7864219"
+            target="_blank">
+            <p>Amauri Soares Ribeiro nº:1580, Cônego Walter - Camaquã/RS</p>
+        </a>
+    </footer>
 </body>
+
 </html>
