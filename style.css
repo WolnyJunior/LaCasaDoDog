@@ -52,8 +52,7 @@ p {
 .linha_menu {
     text-align: center;
     margin: auto;
-    width: 60%;
-    /* border: 3px solid rgb(247, 247, 2); */
+    width: 50vw;
     font-size: 1.8rem;
 }
 
@@ -62,25 +61,38 @@ p {
     margin: 10px;
     color: white;
     padding: 10px;
-    font-size: 1.8rem;
 }
 
-#slides {
-    display: block;
+#photo-fundo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
     margin: auto;
-    width: 90%;
-    /* border: 1px solid white; */
+    box-shadow: 10px 15px 25px white;
+}
+
+.photos{
+    width: 32.95vw;
+    height: 24vw;
+}
+
+#cachorro_quente{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .nomes {
-    margin-top: 70px;
-    width: 38%;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
 }
 
+
 .links {
-    float: right;
     padding: 0px;
-    font-family: AngryBirds;
+    font-size: 0.5rem;
 }
 
 .links li {
@@ -117,7 +129,6 @@ p {
     font-style: italic;
     font-size: 0.8;
     box-shadow: 8px 10px 20px black;
-    /*colocar sombreamento */
 }
 
 .button:hover {
@@ -132,9 +143,8 @@ p {
     margin: auto;
     margin-right: 15px;
     text-align: center;
-    width: 60%;
+    width: 60vw;
     box-shadow: 8px 10px 20px black;
-    /*colocar sombreamento */
     font-size: 1.6rem;
 
 }
@@ -143,6 +153,7 @@ p {
     width: 75%;
     text-align: center;
     margin: auto;
+    padding: 80px;
 }
 
 footer {
@@ -347,14 +358,15 @@ p {
     }
 
     .nomes {
-        position: relative;
+        display: none;
+        /* position: relative;
         top: 20px;
         display: inline-block;
         float: none;
         width: 99%;
         height: auto;
         padding: 1px;
-        margin: 1px;
+        margin: 1px; */
     }
 
     #botao_pedido {
