@@ -14,3 +14,8 @@ O primeiro commit, foi só para puxar os arquivos.</p>
 <p>Mudei os display das 'divs' para centralizar e organizar melhor.</p>
 <p>Coloquei novamente a 'img' e uma 'ul' com links para selecionar o tipo de cachorro quente.</p>
 
+<h4>Commit Att-Buttons</h4>
+<p>Os botões do menu e da lista dos tipos de dogs, foram atualizados e padronizados, diminuindo muitas linhas.
+Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mouse nos botões, mexia com os outros itens do conjunto, e agora é com 'scale' o que faz com que cada botão onde o mouse esteja, seja destacado isoladamente sem prejudicar o layout.</p>
+<p>Também coloquei todos os botões com o 'link' dentro da 'li', pois o menu era 'li' dentro da 'a' e a lista dos dogs era o contrário. .</p>
+
