@@ -118,9 +118,11 @@ p {
 .lista-dogs li {
     list-style: none;
     padding: 18px;
+    display: inline-block;
 }
 
 .button-lista-dogs {
+    
     padding: 8px;
     font-size: 1.5vw;
 }
