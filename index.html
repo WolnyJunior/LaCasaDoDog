@@ -16,7 +16,7 @@
 
 <body>
     <div class="container">
-            <img id="logo1" src="./imagens/assets/logo.png" alt="Imagem-Logo">
+        <img id="logo1" src="./imagens/assets/logo.png" alt="Imagem-Logo">
         <div>
             <h1 class="laCasa">La Casa do Dog</h1>
             <h2 class="slogan">Um novo conceito em dog</h2>
@@ -25,21 +25,21 @@
 
     <div class="linha_menu">
         <ul class="menu">
-            <li class="btn-hover"><a class="button button-menu" href="#dogs">
-                Os Dogs
-            </a></li>
             <li class="btn-hover"><a class="button button-menu" href="#historia">
-                A História
-            </a></li>
+                    A História
+                </a></li>
+            <li class="btn-hover"><a class="button button-menu" href="#dogs">
+                    Os Dogs
+                </a></li>
             <li class="btn-hover"><a class="button button-menu" href="#rodape">
-                Contatos
-            </a></li>
+                    Contatos
+                </a></li>
         </ul>
     </div>
 
     <div id="photo-fundo">
-        <img class="photos" src="./imagens/assets/cachorro-quente.jpg" alt="">
         <img class="photos" src="./imagens/assets/cachorro-quente2.jpg" alt="">
+        <img class="photos" src="./imagens/assets/cachorro-quente.jpg" alt="">
         <img class="photos" src="./imagens/assets/cachorro-quente3.jpg" alt="">
     </div>
 
@@ -59,119 +59,142 @@
             sodales nulla, non sollicitudin erat consectetur eget. Vestibulum vitae urna risus. Vestibulum varius sapien
             maximus sollicitudin laoreet. Duis ut lacus commodo, lacinia lectus eu, porttitor enim.</p>
     </div>
-    <h1>Nossos Dogs</h1>
-    <div id="cachorro_quente">
-        <div class="nomes">
-            <img src="./imagens/mascara sem fundo.png" id="dali">
-            <ul class="lista-dogs">
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#cusco">Cusco</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#pinscher">Pinscher</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#rottweiler">Rottweiler</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#pitbull_monster">Pitbull Monster</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#pitbull_k">Pitbul Kachurrasco</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#cadela_baia">Cadela Baia</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#linguicinha">Linguicinha</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#jaguatirica">Jaguatirica</a></li>
-                <li class="btn-hover"><a class="button button-lista-dogs" href="#vira_lata">Vira Lata</a></li>
+    <h1 id="dogs">Nossos Dogs</h1>
+    <div id="cachorro_quente" class="slide">
+        <div id="myBtnContainer" class="lista-dogs">
+            <img src="./imagens/mascara sem fundo.png" alt="meio/rosto-Dali">
+            <ul class="lista-btn">
+                <li><button class="bts btn-hover active" onclick="filterSelection('cusco')">Cusco</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('pinscher')">Pinscher</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('rottweiler')">Rottweiler</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('pitbull-M')">Pitbull Monster</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('pitbull-K')">Pitbull Kachu...</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('cadela-baia')">Cadela Baia</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('linguicinha')">Linguicinha</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('jaguatirica')">Jaguatirica</button></li>
+                <li><button class="bts btn-hover" onclick="filterSelection('vira-lata')">Vira-Lata</button></li>
             </ul>
         </div>
 
-        <div class="dogs" id="dogs">
-            <figure>
-                <img id="cusco" src="./imagens/assets/cusco.png" width="25%">
-                <figcaption>
-                    <h2>Dog Cusco</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">O Dog Cusco é aquele teu cachorro tradicional com 2 salsichas, pão d'água, pure de
-                batata, molho especial, barbecue, tomate defumado com orégano, ovo cozido, batata palha, salsa verde e
-                queijo ralado.</p>
+        <div class="row ingredientes">
+            <div class="column cusco">
+                <div class="content">
+                    <img src="./imagens/assets/cusco.png" alt="cusco" width="450vw">
+                    <div>
+                        <h2>Cusco</h2>
+                        <p>O Dog Cusco é aquele teu cachorro tradicional com 2 salsichas, pão d'água, pure
+                            de batata, molho especial, barbecue, tomate defumado com orégano, ovo cozido, batata palha,
+                            salsa
+                            verde e queijo ralado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column pinscher">
+                <div class="content">
+                    <img src="./imagens/assets/pinscher.png" alt="pinscher" width="300vw">
+                    <div>
+                        <h2>Pinscher</h2>
+                        <p class="ingredientes">E pra quem não curte comer carne, temos essa deliciosa opção com pão
+                            d'água,
+                            molho especial, tomate defumado com orégano, cenouricha,milho verde, ervilha, cebola ao
+                            alho.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column rottweiler">
+                <div class="content">
+                    <img src="./imagens/assets/rottweiler.png" alt="rottweiler" width="300vw">
+                    <div>
+                        <h2>Rottweiler</h2>
+                        <p class="ingredientes">O Rottweiler é aquele dogão esperto com dois espetinhos de carne assado
+                            na lenha,
+                            pão d'água, pure de batata, molho especial, barbecue, tomate defumado com orégano, ovo
+                            cozido, batata
+                            palha, salsa verde e queijo mussarela escamado.</p>
+                    </div>
+                </div>
+            </div>
 
-            <figure>
-                <img id="pinscher" src="./imagens/assets/pinscher.png" width="25%">
-                <figcaption>
-                    <h2>Pinscher (Vegano)</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">E pra quem não curte comer carne, temos essa deliciosa opção com pão d'água, molho
-                especial, tomate defumado com orégano,
-                cenouricha,milho verde, ervilha, cebola ao alho.</p>
+            <div class="column pitbull-M">
+                <div class="content">
+                    <img src="./imagens/assets/pitbull_monster.png" alt="pitbull-M" width="218vw">
+                    <div>
+                        <h2>Pitbull Monster</h2>
+                        <p class="ingredientes">Só de pensar já da água na boca, o dog Pitbull é feito com aquela
+                            costela top
+                            desfiada na panela, pão d'água, pure de batata,
+                            molho especial, barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column pitbull-K">
+                <div class="content">
+                    <img src="./imagens/assets/pitbull_monster.png" alt="pitbull-K" width="218vw">
+                    <div>
+                        <h2>Pitbul Kachurrasco</h2>
+                        <p class="ingredientes">Nesse Dog vem um espetinho de carne assado na lenha, pão d'água, pure de
+                            batata,
+                            molho especial,
+                            barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column cadela-baia">
+                <div class="content">
+                    <img src="./imagens/assets/cadela_baia.png" alt="cadela-baia" width="290vw">
+                    <div>
+                        <h2>Cadela Baia</h2>
+                        <p class="ingredientes">"Putututu, temo domando, temo aprendendo, temo ensinando" O dog Cadela
+                            Baia tem
+                            aquele espetinho de carne moida, pão d'água, pure de batata, molho especial,
+                            barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+                    </div>
+                </div>
+            </div>
 
-            <figure>
-                <img id="rottweiler" src="./imagens/assets/rottweiler.png" width="20%">
-                <figcaption>
-                    <h2>Rottweiler</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">O Rottweiler é aquele dogão esperto com dois espetinhos de carne assado na lenha,
-                pão d'água, pure de batata, molho especial, barbecue, tomate defumado com orégano, ovo cozido, batata
-                palha, salsa verde e queijo mussarela escamado.</p>
+            <div class="column linguicinha">
+                <div class="content">
+                    <img src="./imagens/assets/linguicinha.png" alt="linguicinha" width="310vw">
+                    <div>
+                        <h2>Linguicinha</h2>
+                        <p class="ingredientes">Feito no estilo diferenciado do La Casa do Dog, o Linguicinha tem duas
+                            calabresas,
+                            pão d'água, pure de batata, molho especial,
+                            barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column jaguatirica">
+                <div class="content">
+                    <img src="./imagens/assets/jaguatirica.png" alt="jaguatirica" width="250vw">
+                    <div>
+                        <h2>Jaguatirica</h2>
+                        <p class="ingredientes">No Jaguatirica tem aquele espetinho de coração que também é feito no
+                            fogo de lenha,
+                            pão d'água, pure de batata, molho especial,
+                            barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo ralado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column vira-lata">
+                <div class="content">
+                    <img src="./imagens/assets/vira_lata.png" alt="vira-lata" width="400vw">
+                    <div>
+                        <h2>Vira Lata</h2>
+                        <p class="ingredientes">E no nosso Vira Lata tem aquele espetinho de churrasco, duas calabresas,
+                            bacon em
+                            tiras, pão d'água,
+                            pure de batata, molho especial, barbecue, tomate defumado com orégano,
+                            ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
+                    </div>
+                </div>
+            </div>
 
-            <figure>
-                <img id="pitbull_monster" src="./imagens/assets/pitbull_monster.png" width="18%">
-                <figcaption>
-                    <h2>Pitbull Monster</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">Só de pensar já da água na boca, o dog Pitbull é feito com aquela costela top
-                desfiada na panela, pão d'água, pure de batata,
-                molho especial, barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
-
-            <figure>
-                <img id="pitbull_k" src="./imagens/assets/pitbull_monster.png" width="18%">
-                <figcaption>
-                    <h2>Pitbull Kachurrasco</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">Nesse Dog vem um espetinho de carne assado na lenha, pão d'água, pure de batata,
-                molho especial,
-                barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
-
-            <figure>
-                <img id="cadela_baia" src="./imagens/assets/cadela_baia.png" width="18%">
-                <figcaption>
-                    <h2>Cadela Baia</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">"Putututu, temo domando, temo aprendendo, temo ensinando" O dog Cadela Baia tem
-                aquele espetinho de carne moida, pão d'água, pure de batata, molho especial,
-                barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
-
-            <figure>
-                <img id="linguicinha" src="./imagens/assets/linguicinha.png" width="25%">
-                <figcaption>
-                    <h2>Linguicinha</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">Feito no estilo diferenciado do La Casa do Dog, o Linguicinha tem duas calabresas,
-                pão d'água, pure de batata, molho especial,
-                barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
-
-            <figure>
-                <img id="jaguatirica" src="./imagens/assets/jaguatirica.png" width="18%">
-                <figcaption>
-                    <h2>Jaguatirica</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">No Jaguatirica tem aquele espetinho de coração que também é feito no fogo de lenha,
-                pão d'água, pure de batata, molho especial,
-                barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo ralado.</p>
-
-            <figure>
-                <img id="vira_lata" src="./imagens/assets/vira_lata.png" width="20%">
-                <figcaption>
-                    <h2>Vira Lata</h2>
-                </figcaption>
-            </figure>
-            <p class="ingredientes">E no nosso Vira Lata tem aquele espetinho de churrasco, duas calabresas, bacon em
-                tiras, pão d'água,
-                pure de batata, molho especial, barbecue, tomate defumado com orégano,
-                ovo cozido, batata palha, salsa verde e queijo mussarela escamado.</p>
         </div>
     </div>
 
@@ -191,6 +214,7 @@
             <p>Amauri Soares Ribeiro nº:1580, Cônego Walter - Camaquã/RS</p>
         </a>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
