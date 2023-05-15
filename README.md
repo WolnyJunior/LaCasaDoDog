@@ -21,4 +21,4 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 
 <h4>Commit Att-Slide</h4>
 <p>Antes eram expostos todos os tipos de dogs na página, bastando apenas rolar a página, porem o layout não era muito atrativo, então, depois de apanhar bastante, consegui criar o slide  ao lado dos botoes de links.</p>
-<p>Foi usado função onclick nos botoes, com filterSelection para cada tipo de dog. Abaixo, o link que foi usado como referência para a criação do slide, no site W3Schools.</p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter">Link Referência</a>
+<p>Foi usado função onclick nos botoes, com filterSelection para cada tipo de dog. Abaixo, o link que foi usado para a criação do slide, no site W3Schools.</p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter">Link Referência</a>
