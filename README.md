@@ -25,5 +25,10 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 <h4>Criação do Slide</h4>
 <p>O Slide também foi criados no commit anterior.</p>
 
+<h4>Commit Add Btn</h4>
+<p>Foi colocado botões nos cards dos dogs para 'adicionar' ao carrinho. Que será criado algum dia.</p>
+
 <h4>Commit Att Slide</h4>
 <p>Neste commit, foi realizado alguns layouts, e a preparação para colocar um slide responsivo, pois a lista de nomes ao lado do rosto do Dali, não ficou bom em smartphones.</p>
+
+<a href="https://la-casa-do-dog.vercel.app/">Confira</a>
