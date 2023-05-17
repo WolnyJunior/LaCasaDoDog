@@ -33,4 +33,7 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 
 <h4>Commit Att Zoom In Out</h4>
 <p>Neste commit foi ajustado o 'zoom in' e 'zoom out', de maneira que fique um bom layout em telas desktops de diferentes tamanhos.</p>
+
+<h4>Commit Att Responsividade</h4>
+<p>Foi ajustado o leyout para deixar responsivo para telas smartphone.</p>
 <a href="https://la-casa-do-dog.vercel.app/">Confira</a>
