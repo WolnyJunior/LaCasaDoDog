@@ -34,20 +34,20 @@ h2 {
 
 .laCasa {
     text-shadow: 10px 5px 20px black;
-    font-size: 3.5rem;
+    font-size: 3.5vw;
     word-spacing: 15px;
     margin-bottom: 5px;
 }
 
 .slogan {
     text-shadow: 10px 5px 10px black;
-    font-size: 1.6rem;
+    font-size: 1.6vw;
     margin-top: 5px;
     word-spacing: 10px;
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.3vw;
 }
 
 #logo1 {
@@ -61,7 +61,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.8rem;
+    font-size: 1.8vw;
 }
 
 .menu li {
@@ -106,6 +106,10 @@ p {
     height: 24vw;
 }
 
+.titulos{
+    font-size: 2vw;
+}
+
 #historia {
     width: 75%;
     text-align: center;
@@ -131,13 +135,13 @@ p {
 .content {
     background: transparent;
     border-radius: 20px;
-    width: 600px;
-    height: 550px;
+    width: 35vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     transition: all .8s;
+    padding: 20px;
 }
 
 .content:hover {
@@ -176,15 +180,19 @@ ul {
 .lista-btn {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 15vw;
     padding: 0;
 }
 
 .lista-dogs {
     display: flex;
+    justify-content: center;
     align-items: center;
     border-radius: 20px;
     transition: all .8s;
+    width: 35vw;
+    padding: 20px;
+
 }
 
 .lista-dogs:hover{
@@ -330,14 +338,9 @@ footer:hover {
     /* #cachorro_quente {
         display: none;
     } */
-/* Slide Responsivo Inicio */
+/* Slide Smartphone Inicio */
 
-/* Slide Responsivo Fim */
-
-
-    #logo {
-        width: 60%;
-    }
+/* Slide Smartphone Fim */
 
     footer {
         margin-bottom: 50px;
