@@ -30,3 +30,5 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 
 <h4>Commit Att Slide</h4>
 <p>Neste commit, foi realizado alguns layouts, e a preparação para colocar um slide responsivo, pois a lista de nomes ao lado do rosto do Dali, não ficou bom em smartphones.</p>
+
+<a href="https://la-casa-do-dog.vercel.app/">Confira</a>
