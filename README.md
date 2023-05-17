@@ -19,3 +19,8 @@ O primeiro commit, foi só para puxar os arquivos.</p>
 Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mouse nos botões, mexia com os outros itens do conjunto, e agora é com 'scale' o que faz com que cada botão onde o mouse esteja, seja destacado isoladamente sem prejudicar o layout.</p>
 <p>Também coloquei todos os botões com o 'link' dentro da 'li', pois o menu era 'li' dentro da 'a' e a lista dos dogs era o contrário. .</p>
 
+<h4>Commit-Att_footer</h4>
+<p>Neste commit, foi finalizado a página com a atualização do footer, foi inserido uma iframe com o endereço mostrado no google maps, as redese socias Instagran e Whatsapp. Além de criar o slide, também foi excluído itens que não estavam sendo usados (imagens, fontes)</p>
+
+<h4>Criação do Slide</h4>
+<p>O Slide também foi criados no commit anterior.</p>
