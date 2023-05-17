@@ -66,7 +66,6 @@ p {
 
 .menu li {
     display: inline-block;
-    color: white;
     padding: 10px;
 }
 
@@ -106,7 +105,7 @@ p {
     height: 24vw;
 }
 
-.titulos{
+.titulos {
     font-size: 2vw;
 }
 
@@ -195,7 +194,7 @@ ul {
 
 }
 
-.lista-dogs:hover{
+.lista-dogs:hover {
     box-shadow: 10px 10px 50px white;
     transform: scale(1.1);
 }
@@ -213,7 +212,7 @@ ul {
 }
 
 .button-add {
-    padding: 7px 30px;
+    padding: 7px 20px;
     margin: 10px;
     font-size: 2.8vh;
     border: 1px solid white;
@@ -289,61 +288,80 @@ footer:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    body {
-        position: static;
-    }
-
     #logo1 {
-        width: 30%;
-    }
-
-    .borda {
-        padding-top: 5px;
-        font-family: SpongeBob;
-        margin: auto;
-        position: relative;
-        width: 90%;
-    }
-
-    .menu {
-        position: relative;
-        list-style: none;
-        margin: auto;
-        padding: 0;
+        width: 15vw;
     }
 
     .linha_menu {
-        display: block;
-        text-align: center;
-        width: 60%;
+        margin: 10px;
     }
 
-    .button-menu {
-        border: 2px solid white;
-        text-align: center;
-        padding: 8px;
-        border-radius: 6px;
-        font-size: 1.1rem;
-    }
-
-    .linha_menu {
-        margin: 20px;
-    }
-
-    #historia {
-        width: 90%;
-        text-align: justify;
-    }
-
-    /* #cachorro_quente {
+    #cachorro_quente {
         display: none;
-    } */
-/* Slide Smartphone Inicio */
+    }
 
-/* Slide Smartphone Fim */
+    /* Slide Smartphone Inicio */
+
+    /* Slide Smartphone Fim */
 
     footer {
-        margin-bottom: 50px;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .mapa {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        border: 5px solid black;
+        box-shadow: 0 10px 25px black;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .laCasa {
+        font-size: 4vh;
+        letter-spacing: 1px;
+    }
+
+    .slogan, .titulos {
+        font-size: 2.3vh;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+
+    p {
+        font-size: 1.3vh;
+    }
+
+    .button {
+        border-radius: 6px;
+    }
+    
+    .button-menu {
+        padding: 8px 10px;
+    }
+
+    .button-add{
+        font-size: 2vh;
+        padding: 5px 10px;
+    }
+
+    .photos {
+        width: 40%;
+    }
+    
+    footer {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .mapa {
+        width: 70%;
+        display: flex;
+        margin: auto;
+        border: 5px solid black;
+        box-shadow: 0 10px 25px black;
     }
 
 }
