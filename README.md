@@ -36,4 +36,7 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 
 <h3>Commit Att Responsividade</h3>
 <p>Foi ajustado o leyout para deixar responsivo para telas smartphone.</p>
+
+<h3>Commit Att Bts</h3>
+<p>Neste commit, foi ajustado alguns tamanhos das fontes dos botões, e foram tiradas, duas classes para diminuir o código e deixar mais parecidos os botões.</p>
 <a href="https://la-casa-do-dog.vercel.app/">Confira</a>
