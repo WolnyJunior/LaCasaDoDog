@@ -331,7 +331,7 @@ footer:hover {
     }
 
     p {
-        font-size: 1.3vh;
+        font-size: 1.6vh;
     }
 
     .button {
@@ -339,7 +339,8 @@ footer:hover {
     }
     
     .button-menu {
-        padding: 8px 10px;
+        padding: 8px 8px;
+        font-size: 1.8vh;
     }
 
     .button-add{
