@@ -339,10 +339,15 @@ footer:hover {
 
     .mapa {
         width: 70%;
+        height: 50%;
         display: flex;
         margin: auto;
         border: 5px solid black;
         box-shadow: 0 10px 25px black;
+    }
+
+    .mapa iframe{
+        height: 35vh;
     }
 
 }
