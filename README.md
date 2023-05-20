@@ -39,4 +39,13 @@ Antes eles tinham um ':hover' com 'padding', o que era ruim, pois ao passar o mo
 
 <h3>Commit Att Bts</h3>
 <p>Neste commit, foi ajustado alguns tamanhos das fontes dos botões, e foram tiradas, duas classes para diminuir o código e deixar mais parecidos os botões.</p>
+
+<h3>Commit Att Mapa</h3>
+<p>Foi diminuído o tamanho do mapa em telas smartphone.</p>
+
+<h2>Commit Slide Responsivo</h2>
+<p>Depois de algumas horas, achando os erros e resolvendo, eu consegui concluir o slide para smartphone.</p>
+<p>Esse é um slide com touch, foi pego de um repositório aqui no github, depois eu coloco o endereço.</p>
+<p>A partir de telas 768px ele já fica ativo. Foi adicionado um efeito de card no slide, onde a parte da frente é só a imagem do cachorro, e no card-back tem as informações e o botão para adicionar ao carrinho (que ainda não está pronto).</p>
+
 <a href="https://la-casa-do-dog.vercel.app/">Confira</a>
