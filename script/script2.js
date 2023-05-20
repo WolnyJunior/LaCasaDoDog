@@ -1,5 +1,3 @@
-console.log('hello word')
-
 // Slide Responsivo
 
 import SlideNav from "./slide.js";

@@ -335,8 +335,8 @@ footer:hover {
         margin: 0 20px;
         border-radius: 20px;
         overflow: hidden;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, .4);
-        border: 2px solid black;
+        box-shadow:inset 0 1px 20px white;
+        /* border: 2px solid white; */
         opacity: .8;
         transform: scale(.8);
         transition: .4s;
@@ -495,6 +495,13 @@ footer:hover {
 }
 
 @media only screen and (max-width: 426px) {
+    #logo1 {
+        width: 15vw;
+        margin-right: 50px;
+        padding: 10px;
+        background-image: none;
+    }
+    
     .laCasa {
         font-size: 4vh;
         letter-spacing: 1px;
